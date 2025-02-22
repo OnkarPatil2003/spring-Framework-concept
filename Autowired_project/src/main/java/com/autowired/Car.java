@@ -15,7 +15,7 @@ public class Car {
 	@Autowired
 	Engine engine;
 	@Autowired
-	@Qualifier(value = "iphone")
+//	@Qualifier(value = "iphone")    // 1st priority is to qualifier then primary 
 	Mobile mobile;
 	
 //	@PreDestroy

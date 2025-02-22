@@ -17,9 +17,15 @@ public class Driver {
 //		c1.display();
 //		capp.close(); 		// print after closing the application..
 		
-		Car c1 =(Car) capp.getBean("car");
-		c1.display();
+/* 		if two interface is there and to inject the object of which subclass is que?
+ * 		- autowired with qualifer or mention primary annotation to subclass.
+ * 		- qualifer is method level annotation and primary is class level annotation.
+ * 
+ */
 		
+//		Car c1 =(Car) capp.getBean("car");
+//		c1.display();
+
 	}
 
 }
